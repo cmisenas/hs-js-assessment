@@ -8,6 +8,8 @@ define(function () {
 				if (start < end) {
 					start++;
 					console.log(start);
+				} else {
+					clearInterval(counter);
 				}
 			}, 100);
 			return {
